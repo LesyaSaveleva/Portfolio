@@ -1,0 +1,14 @@
+@import url(header.css);
+@import url(hello-section.css);
+@import url(aboutMe.css);
+@import url(servises.css);
+@import url(progects.css);
+
+body {
+    font-family: "Raleway;", sans-serif !important;
+}
+
+.color {
+    
+    background-color: rgba(189, 190, 209, 0.437);
+}

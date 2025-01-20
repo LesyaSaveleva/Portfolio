@@ -1,0 +1,60 @@
+.section-aboutMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 85%;
+    height: 600px;
+}
+
+.section-aboutMe__image,
+.section-aboutMe__text {
+    padding: 50px 20px;
+    width: 48%;
+    height: 100%;   
+}
+
+.section-aboutMe__image img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.section-aboutMe__text h2 {
+    margin: 0 20px 40px;
+    text-align: center;
+    font-size: 33px;
+    line-height: 37px;
+    font-weight: 500;
+    color: #024023;
+}
+
+.section-aboutMe__text p {
+    margin: 0 0 10px 20px;
+    text-align: justify;
+    font-size: 25px;
+    line-height: 28px;
+    color: rgb(53, 53, 53);
+}
+
+.section-aboutMe__text-btn {
+    margin: 20px;
+    width: 395px;
+    border-radius: 5px;
+    border: none;
+    background-color: #a750a8;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 500;
+    color: white;
+}
+
+.section-aboutMe__text-btn:hover {
+    box-shadow: 0 0 20px #024023;
+}
+
+.section-aboutMe__text-btn:hover {
+    cursor: pointer;
+}
+

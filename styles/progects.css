@@ -1,0 +1,263 @@
+.projects {
+    margin: 80px auto 0;
+    padding-top: 30px;
+    max-width: 100%;
+    height: 700px;
+}
+
+.projects__btn-nav {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.projects h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 33px;
+    line-height: 37px;
+    font-weight: 500;
+    color: #024023;
+}
+
+.projects__bots-btn,
+.projects__website-btn {
+    width: 90px;
+    border: none;
+    background-color: #a750a8;
+    line-height: 22px;
+    color: white;
+}
+
+.projects__bots-btn:hover,
+.projects__website-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px #024023 ;
+}
+
+.btn__active {
+    background-color: white;
+    color: #a750a8;
+    border: 1px solid #a750a8;
+}
+
+.projects__project {
+    position: relative;
+    margin: 20px auto;
+    width: 60%;
+    height: 520px;
+    padding-top: 30px;
+
+    background-color: rgba(189, 190, 209, 0.437);
+}
+
+.projects-bots {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    padding-top: 30px;
+}
+
+.projects-bots,
+.projects-website {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity, 0.7s;
+}
+
+.projects-active {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity, 0.7s;
+}
+
+.projects__project-designer,
+.projects__project-tarolog,
+.projects__project-NL,
+.projects__project-reviews {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+
+    /* z-index: 10; */
+}
+
+.projects__project-tarolog,
+.projects__project-designer,
+.projects__project-NL,
+.projects__project-reviews{
+    
+    position: absolute;
+    opacity: 0;
+    transition: opacity, 0.7s;
+}
+
+.project__slide_active {
+    opacity: 1;
+    transition: opacity, 0.7s;
+}
+
+.projects__project-text {
+    height: 350px;
+}
+
+.projects__project-info,
+.projects__project-img {
+    width: 40%;
+    height: 450px;
+}
+
+.projects__project-img { 
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.designer {
+    background-image: url(../Images/projects/Project_bot1.png);
+}
+
+.tarolog {
+    background-image: url(../Images/projects/Project_bot3.png);
+}
+
+.NL {
+    background-image: url(../Images/projects/Project_bot2.png);
+}
+
+.reviews {
+    background-image: url(../Images/projects/reviews.png);
+}
+
+.project__cases__name {
+    margin-top: 120px;
+    line-height: 1.2;
+    display: block;
+    width: 80%;
+    height: 60px;
+}
+
+.project__name,
+.project__cases__name {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #a750a8; 
+}
+
+.project__description {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(53, 53, 53);
+}
+
+.project__description-txt {
+    margin: 280px 0 0 85px;
+    font-size: 20px;
+    color: rgb(53, 53, 53);
+}
+
+.project__controls {
+    position: absolute;
+    left: 80px;
+    top: 420px;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    height: 50px;
+}
+
+.project__controls-prev,
+.project__controls-next {
+    width: 38px;
+    background-color: transparent;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    cursor: pointer;
+
+    z-index: 50;
+}
+
+.project__controls-prev {
+    background-image: url(../Images/icons/arrow_left.png);
+}
+
+.project__controls-next {
+    background-image: url(../Images/icons/arrow_left.png);
+    transform: rotate(180deg);
+}
+
+.projects__project-btn {
+    position: absolute;
+    margin: 350px 0 0 90px;
+    width: 185px;
+    border-radius: 5px;
+    border: none;
+    background-color: #a750a8;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: white;
+    z-index: 100;
+}
+
+.projects__project-btn:hover,
+.projects-website__btn:hover {
+    box-shadow: 0 0 15px #024023;
+}
+
+.projects-website {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 520px;
+    background-image: url(../Images/projects/website.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects-website__text-txt {
+    margin: 250px auto 0;
+    width: 80%;
+    text-align: center;
+    font-size: 19px;
+    color: rgb(199, 199, 199);
+}
+
+.projects-website__text-link {
+    margin: 10px auto 20px;
+    width: 70%;
+    text-align: center;
+    font-size: 28px;
+    color: #a750a8;
+}
+
+.projects-website__btn {
+    display: block;
+    margin: 0 auto;
+    width: 75px;
+
+    border-radius: 5px;
+    border: none;
+    background-color: #a750a8;
+    cursor: pointer;
+ }
+
+.projects-website__btn a{
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: white;
+}
+
